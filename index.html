@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ringraziamenti Tesi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+  <main class="container">
+    <article>
+      <h2>Accesso Riservato</h2>
+      <p>Inserisci le tue credenziali per leggere la dedica.</p>
+      
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button onclick="controllaLogin()">Accedi</button>
+      
+      <p id="errore" style="color: red; display: none;">Credenziali errate!</p>
+    </article>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>
