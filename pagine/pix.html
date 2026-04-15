@@ -5,12 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ringraziamenti Pix</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <!-- Script per il visualizzatore 3D -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
   <main class="container">
     <article>
       <h2>Ringraziamenti per Pix</h2>
       <p>Un grande grazie a Pix...</p>
+
+      <!-- Componente Ologramma 3D -->
+      <div style="text-align: center; margin: 2rem 0;">
+        <model-viewer 
+          src="../models/hologram.glb" 
+          alt="Un ologramma 3D" 
+          auto-rotate 
+          camera-controls 
+          style="width: 100%; height: 400px; background-color: transparent; margin: 0 auto;">
+        </model-viewer>
+        <p style="font-size: 0.8rem; color: gray; margin-top: 8px;">🔄 Tocca e trascina per ruotare (Scrolla per lo zoom)</p>
+      </div>
+      
+      <!-- Componente Gallery -->
+      <div class="photo-gallery">
+        <div class="gallery-item">
+          <img src="../images/gallery_1.png" alt="Memoria 1">
+          <div class="gallery-overlay"></div>
+        </div>
+        <div class="gallery-item">
+          <img src="../images/gallery_2.png" alt="Memoria 2">
+          <div class="gallery-overlay"></div>
+        </div>
+        <div class="gallery-item">
+          <img src="../images/gallery_3.png" alt="Memoria 3">
+          <div class="gallery-overlay"></div>
+        </div>
+      </div>
+      <!-- Fine Gallery -->
+
       <br>
       <a href="../index.html" role="button" class="outline">Torna al Login</a>
     </article>
