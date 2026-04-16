@@ -1,12 +1,12 @@
 // Il nostro "database" statico
 const utenti = {
-    "genitori": { pass: "cuore", url: "pagine/gen.html" },
-    "sorella": { pass: "sorellamigliore", url: "pagine/sorella.html" },
-    "nonni": { pass: "nonniamati", url: "pagine/nonni.html" },
-    "amici": { pass: "compagni", url: "pagine/amici.html" },
-    "casapescuma": { pass: "pescuma", url: "pagine/casapescuma.html" },
-    "zii": { pass: "sempreinsieme", url: "pagine/zii.html" },
-    "pix": { pass: "pix", url: "pagine/pix.html" },
+    "genitori": { pass: "bellissimibravissimi", url: "pagine/gen.html" },
+    "sorella": { pass: "sorellinapatatina", url: "pagine/sorella.html" },
+    "nonni": { pass: "nonniamatissimi", url: "pagine/nonni.html" },
+    "amici": { pass: "sborrapiedi", url: "pagine/amici.html" },
+    "casapescuma": { pass: "crazyhorsekowalski", url: "pagine/casapescuma.html" },
+    "zii": { pass: "ziiettipargoletti", url: "pagine/zii.html" },
+    "pix": { pass: "chebeipiedi", url: "pagine/pix.html" },
     // IL TUO ACCESSO DA AMMINISTRATORE
     "admin": { pass: "porcodio", url: "pagine/admin.html" } 
 };

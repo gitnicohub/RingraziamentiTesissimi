@@ -3,14 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ringraziamenti Sorella</title>
+  <title>A Mi Sorella</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
   <main class="container">
     <article>
-      <h2>Ringraziamenti a mia sorella</h2>
-      <p>Grazie per tutto il supporto...</p>
+      <h2>A Mi Sorella</h2>
+      <p>Che dire signorina, finalmete ce l'ho fatta. Sei sempre stata un punto di riferimento sin da quando siamo piccolissimi. Mi hai praticamente cresciuto e più che una sorella minore hai sempre rivestito ruoli da sorella maggiore. 
+        Grazie per avermi insegnato ad essere paziente, a prendermi cura di me stesso, a parlare in qualsiasi situazione di quello che mi succede, a voler bene nel modo più pure possibile. Ci sono ancora tante cose che devo mettere in pratica, lo sai
+        ma avendo te come esempio è tutto molto più facile. Sono onorato di averti come sorella, non avrei potuto chiedere di meglio. Ti voglio bene gre, anche se ci sono periodi in cui ci sentiamo poco sono sicuro che l'uno vive sempre nell'altro.
+        Sei incredibile gre, possiamo fare tutto quello che cazzo vogliamo, dobbiamo solo volerlo perchè siamo persone validissime. Ricordalo sempre.
+        Quel coglionazzo del tuo fratellone.
+      </p>
+      <div style="text-align: center; margin: 2rem 0;">
+        <model-viewer 
+          src="../models/rose.glb" 
+          alt="Ologramma 3D" 
+          auto-rotate 
+          camera-controls 
+          style="width: 100%; height: 400px; background-color: transparent; margin: 0 auto;">
+        </model-viewer>
+        <p style="font-size: 0.8rem; color: gray; margin-top: 8px;">🔄 Tocca e trascina per ruotare (Scrolla per lo zoom)</p>
+      </div>
+      <!-- Componente Gallery -->
+      <div class="photo-gallery">
+        <div class="gallery-item">
+          <img src="../images/greta1.jpg" alt="Memoria 1">
+          <div class="gallery-overlay"></div>
+        </div>
+        <div class="gallery-item">
+          <img src="../images/greta2.jpg" alt="Memoria 2">
+          <div class="gallery-overlay"></div>
+        </div>
+      </div>
+      <!-- Fine Gallery -->
       <br>
       <a href="../index.html" role="button" class="outline">Torna al Login</a>
     </article>
